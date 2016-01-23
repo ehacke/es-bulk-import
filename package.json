@@ -1,0 +1,38 @@
+{
+  "name": "es-bulk-import",
+  "version": "1.0.0",
+  "description": "Simple import bulk data into elasticsearch",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehacke/es-bulk-import.git"
+  },
+  "keywords": [
+    "elasticsearch",
+    "bulk",
+    "import",
+    "json",
+    "backup"
+  ],
+  "author": "Eric Hacke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ehacke/es-bulk-import/issues"
+  },
+  "homepage": "https://github.com/ehacke/es-bulk-import#readme",
+  "dependencies": {
+    "bunyan": "^1.5.1",
+    "bunyan-prettystream": "^0.1.3",
+    "chance": "^0.8.0",
+    "command-line-args": "^2.1.4",
+    "elasticsearch": "^10.1.2",
+    "lodash": "^4.0.0",
+    "moment": "^2.11.1"
+  }
+}
